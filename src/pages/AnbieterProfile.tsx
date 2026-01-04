@@ -304,24 +304,24 @@ export function AnbieterProfile() {
               <AdSlot size="large" />
             </div>
 
-            {/* Affiliate CTA */}
-            <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-xl p-6 mb-6">
-              <h3 className="text-neutral-900 mb-3">Anbieter kontaktieren</h3>
-              <p className="text-sm text-neutral-700 mb-4">
-                Direkt beim Anbieter anfragen und individuelle Konditionen erhalten.
-              </p>
-              <a
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer sponsored"
-                className="block w-full text-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
-              >
-                Anfrage stellen <ExternalLink className="w-4 h-4 inline ml-2" />
-              </a>
-              <p className="text-xs text-neutral-600 mt-3">
-                <strong>Transparenz:</strong> Affiliate-Link. Keine Extrakosten für Sie.
-              </p>
-            </div>
+                {/* Affiliate CTA */}
+                <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-xl p-6 mb-6">
+                  <h3 className="text-neutral-900 mb-3">Anbieter kontaktieren</h3>
+                  <p className="text-sm text-neutral-700 mb-4">
+                    Direkt beim Anbieter anfragen und individuelle Konditionen erhalten.
+                  </p>
+                
+                  <Link
+                    to="/analyse"
+                    className="block w-full text-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                  >
+                    Zur Analyse <ExternalLink className="w-4 h-4 inline ml-2" />
+                  </Link>
+                
+                  <p className="text-xs text-neutral-600 mt-3">
+                    <strong>Transparenz:</strong> Affiliate-Link. Keine Extrakosten für Sie.
+                  </p>
+                </div>
 
             {/* AdSense Slot - Mobile (between sections) */}
             <div className="lg:hidden mb-6">
